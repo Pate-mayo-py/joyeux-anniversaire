@@ -1,0 +1,26 @@
+body {
+    background-color: blue;
+    background-image: url("https://i.pinimg.com/originals/ea/4b/cd/ea4bcd079a011395ac2404912082a2f6.gif");
+    font-family: "Comic sans ms";
+    color: lime;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.loading {
+    margin: auto;
+    animation: rotate 3s infinite;
+    font-size: large;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
